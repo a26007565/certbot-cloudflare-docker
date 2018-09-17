@@ -1,7 +1,0 @@
-version: "2"
-services:
-    certbot:
-        image: mark86092/certbot:cloudflare
-        build:
-            context: docker
-            dockerfile: Dockerfile
